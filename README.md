@@ -1,13 +1,20 @@
 
 ## LAB1
-- build simple model with links and joints
-  - three links same size 
-  - one fixed joint
-  - one revolute
-  - control joints position and axes
-- spawn model into gazebo
-- add ros plugin for joint state and joint trajectory
-- control joints
+1. Build simple model with links and joints
+     - three links same size 
+     - one fixed joint
+     - one revolute
+     - control joints position and axes
+2. Spawn model into gazebo
+3. Add ros plugin for joint state and joint trajectory
+4. Control joints from cli
+5. Add launch file to spawn gazebo and model
+6. Add simple node to set joint trajectory
+7. Convert to xacro
+   1. add macro to calc inertia
+8. Check [Xacro can only take you so far](http://download.ros.org/downloads/roscon/2022/Xacro%20can%20only%20take%20you%20so%20far%20go%20further%20with%20EmPy%20and%20ERB!.pdf) from roscon
+   1. Try convert the model to user EmPy
+   2. Setup with VSCode
 
 ## reference
 - [sdf specification](http://sdformat.org/spec)
